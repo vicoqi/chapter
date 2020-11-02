@@ -20,7 +20,7 @@ jobs:
     steps:
 #     - uses: actions/checkout@v2
       - name: test print
-        run: echo "hello world"
+        run: curl http://www.baidu.com
 #     - name: Set up JDK 1.8
 #       uses: actions/setup-java@v1
 #       with:
